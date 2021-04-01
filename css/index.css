@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02135C;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+h1{
+    font-family: "kreon", serif;
+    color: #FFF;
+    text-shadow: 4px 4px 0px black;
+}
+   
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{
+    content: "";
+    background-color: #B30802;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button{
+    display: inline-block;
+    background-color: #B30802;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px black;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+#button:hover{
+    background-color: #EB5757;
+    transform: scale(0.9);
+}

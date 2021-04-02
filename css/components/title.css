@@ -4,3 +4,9 @@
     font-size: 64px;
     text-shadow: 4px 4px 0px black;
 }
+
+.title.-second{
+    color: #FFF;
+    text-shadow: none;
+    text-align: center;
+}

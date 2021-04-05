@@ -9,3 +9,7 @@
     padding-right: 5px;
     outline: none;
 }
+
+.main-input.-textarea{
+    height: 320px;
+}

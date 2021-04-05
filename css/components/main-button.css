@@ -14,3 +14,7 @@
     background-color: #EB5757;
     transform: scale(0.9);
 }
+
+.main-button.-full{
+    width: 100%;
+}

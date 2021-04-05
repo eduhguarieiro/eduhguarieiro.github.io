@@ -1,0 +1,43 @@
+.node-card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 140px;
+    height: 0px;
+    width: 45px;
+    border: 2.4px dashed #000;
+    transform: rotate(90deg) translateX(-58%);
+}
+
+.node-card .title{
+    font-family: "kreon", serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #B30802;
+    margin-bottom: 50px;
+}
+
+.node-card .logo{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid #000;
+    background-color: #CEB02A;
+}
+
+.node-card.-clean .logo{
+    padding: 0;
+}
+
+.node-card.-bgRed .logo{
+    background-color: #B30802;
+}

@@ -1,0 +1,10 @@
+.card-project {
+    width: 280px;
+    height: 280px;
+    box-shadow: 5px 5px 0 #fff;
+}
+
+.card-project .logo {
+    width: 280px;
+    height: 280px;
+}

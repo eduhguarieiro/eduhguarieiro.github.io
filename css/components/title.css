@@ -5,3 +5,9 @@
     font-weight: 700;
     text-shadow: 3px 3px 0 #000;
 }
+
+.title.-second {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+}

@@ -18,5 +18,9 @@
     height: 15px;
     border: 15px solid transparent;
     border-left: 28px solid white;
-    transform: translate(10px);
+    transform: translateX(12px);
+}
+
+.button-arrow.-left::before{
+    transform: rotate(180deg) translateX(5px);
 }

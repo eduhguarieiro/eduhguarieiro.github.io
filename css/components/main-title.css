@@ -1,4 +1,4 @@
-.title {
+.main-title {
     font-family: "kreon", serif;
     font-size: 64px;
     color: #B30802;
@@ -6,7 +6,7 @@
     text-shadow: 3px 3px 0 #000;
 }
 
-.title.-second {
+.main-title.-second {
     color: #fff;
     text-shadow: none;
     text-align: center;

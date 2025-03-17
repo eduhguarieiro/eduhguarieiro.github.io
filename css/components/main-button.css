@@ -16,3 +16,7 @@
     border-radius: 10px;
     transform: scale(1.1);
 }
+
+.main-button.-full {
+    width: 100%;
+}

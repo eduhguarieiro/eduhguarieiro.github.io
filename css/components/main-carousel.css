@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .main-carousel::before {
     display: block;
     position: absolute;
+    box-sizing: border-box;
     left: 0;
     top: 30px;
     content: '';
@@ -39,4 +40,15 @@
 
 .main-carousel .button-arrow.-right {
     right: 15px;
+}
+
+.main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
+    display: flex;
+    justify-content: space-around;
+    transition: tranform 100ms ease-in-out;
 }
